@@ -21,10 +21,8 @@ void setup() {
     Serial.begin(115200);
     while (!Serial) { delay(10); }
 
-    Serial.println("\n========================================================");
-    Serial.println("[EXAMPLE 2-1b] PHÂN HỆ NGUỒN EPS - THƯ VIỆN PTITCUBE");
-    Serial.println("========================================================");
-
+        Serial.println("[EXAMPLE 2-1b] PHÂN HỆ NGUỒN EPS - THƯ VIỆN PTITCUBE");
+    
     // Khởi tạo phân hệ nguồn EPS
     if (eps.init()) {
         Serial.println("[EPS] Khởi tạo thành công! IC MAX17048 đã sẵn sàng.");
