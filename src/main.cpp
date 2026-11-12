@@ -27,7 +27,7 @@ void setup() {
     if (eps.init()) {
         Serial.println("[EPS] Khởi tạo thành công! IC MAX17048 đã sẵn sàng.");
     } else {
-        Serial.println("[EPS] CẢNH BÁO: Không phát hiện IC MAX17048. Vui lòng kiểm tra kết nối I2C.");
+        Serial.println("[EPS] LOI: Khong tim thay MAX17048.");
     }
     
     Serial.println("[EXAMPLE] Bắt đầu theo dõi trạng thái nguồn Pin liên tục...\n");
