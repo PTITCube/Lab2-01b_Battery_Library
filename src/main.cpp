@@ -18,7 +18,7 @@ void loop() {
     float percent    = eps.getBatteryPercent();
     float chargeRate = eps.getChargeRate();
 
-    Serial.printf("EPS: V: %.3f V | SOC: %.1f %% | Rate: %+.2f %%/h\n", voltage, percent, chargeRate);
+    Serial.printf("V: %.3f V | SOC: %.1f %% | Rate: %+.2f %%/h\n", voltage, percent, chargeRate);
 
     delay(2000);
 }
